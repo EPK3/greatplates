@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../img/logo-main.webp'
-import { IoSearchOutline, IoFastFoodOutline } from 'react-icons/io5'
+import { IoSearchSharp } from 'react-icons/io5'
 
 const Navbar = () => {
   return (
@@ -9,7 +9,7 @@ const Navbar = () => {
         <img src={logo} alt='Something went wrong...' className='h-12 ml-5 justify-start content-center m-auto'/>
         <div className='inline-flex content-center justify-end mr-5'>
         <input type='text' placeholder='Chicken, Rice, Avacado...' className='hidden w-3/4 h-8 px-2 outline-none text-black rounded-lg m-auto mx-5'/>
-          <IoSearchOutline className='text-white text-2xl m-auto cursor-pointer'/>
+          <IoSearchSharp className='text-white text-2xl m-auto cursor-pointer'/>
         </div>
       </div>   
     </div>
